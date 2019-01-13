@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ToolbarView" customModule="BolDotComAssesmment" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ToolbarView" customModule="BolDotComAssesmment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="zWf-og-hN7">
+                    <rect key="frame" x="0.0" y="0.0" width="416" height="44"/>
+                    <items>
+                        <barButtonItem title="Home" image="ic_home" id="h4U-j7-BaA"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="dPv-9F-q05"/>
+                        <barButtonItem title="Mandje" image="ic_winkelmandLeeg" id="pTo-Nh-T7t"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="hhH-Ct-Tg5"/>
+                        <barButtonItem title="Zoek" image="ic_search" id="bPt-qo-iY3"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="FF6-D5-yeF"/>
+                        <barButtonItem title="Favorite" image="ic_hartje" id="2AL-KC-jL2"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="HC7-a3-HG8"/>
+                        <barButtonItem title="Account" image="ic_face" id="Yut-pD-iOz"/>
+                    </items>
+                    <color key="tintColor" red="0.13586902618408203" green="0.35178142786026001" blue="0.77968066930770874" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="zWf-og-hN7" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="NJg-Kp-XsG"/>
+                <constraint firstItem="zWf-og-hN7" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="WQR-0N-2Dl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="zWf-og-hN7" secondAttribute="bottom" id="YUV-gn-U0x"/>
+                <constraint firstItem="zWf-og-hN7" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="j3a-OW-5LB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="243.19999999999999" y="-2543.9280359820091"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_face" width="36" height="36"/>
+        <image name="ic_hartje" width="36" height="36"/>
+        <image name="ic_home" width="36" height="36"/>
+        <image name="ic_search" width="36" height="36"/>
+        <image name="ic_winkelmandLeeg" width="36" height="36"/>
+    </resources>
+</document>
