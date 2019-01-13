@@ -11,6 +11,8 @@ Bol.com have a developers site on https://developers.bol.com/ to help you furthe
 
 This project is fully written in Swift voor iOS and does not use any Pods so it is all build from scretch.
 
+It has full textsearch , image caching , api calls, product detail views , image scrolling implemented ....Enjoy!
+
 Use it to your liking and make the best Bol.com of them all ;-)
 
 For questions email me on revsimpson@casema.nl 
